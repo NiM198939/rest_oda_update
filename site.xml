@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/rest_oda_plugin_1.0.0.201302212059.jar" id="rest_oda_plugin" version="1.0.0.201302212059">
+      <category name="REST_ODA"/>
+   </feature>
+   <feature url="features/rest_oda_ui_plugin_1.0.0.201302212059.jar" id="rest_oda_ui_plugin" version="1.0.0.201302212059">
+      <category name="REST_ODA_UI"/>
+   </feature>
+   <category-def name="REST_ODA" label="rest_oda_ui_plugin"/>
+   <category-def name="REST_ODA_UI" label="rest_oda_plugin"/>
+</site>
